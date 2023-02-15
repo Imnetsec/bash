@@ -20,7 +20,7 @@ echo $(($1+$N))
 ### Решение
 
 #!/bin/bash
-#Task2
+
 i=0
 for cn in $(ls)
 do
@@ -39,7 +39,7 @@ echo "Total: $i"
 ### Решение
 
 #!/bin/bash
-#Task3
+
 if [ -d $1 ]
   then
       echo "This $1 directory"
